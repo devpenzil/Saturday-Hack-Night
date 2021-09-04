@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router'
-
+import Loader from '../Loader/Loader'
 function Profile() {
     const [user, setUser]:any = useState()
     const history = useHistory()
@@ -57,7 +57,7 @@ function Profile() {
                     </div>
                 </div>
             </div>
-            : " loading"}
+            : <Loader />}
         </div>
     )
 }

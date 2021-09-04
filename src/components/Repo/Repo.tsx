@@ -23,11 +23,16 @@ function Repo() {
                         return(
                         <div className="w-full md:w-1/3 mb-4">
                             <a href={obj.html_url}>
-                                <div className="card m-2 p-2 bg-purple-200 hover:bg-purple-800 hover:text-white hover:shadow-lg rounded-lg h-full">
+                                <div className="card m-2 p-4  bg-purple-200 hover:bg-purple-800 hover:text-white hover:shadow-lg rounded-lg h-full">
                                     <div className="text-base font-semibold">{obj.name}</div>
-                                    <div className="flex justify-between text-sm mt-2 ">
+                                    <div className="flex justify-between text-sm mt-4 ">
                                         <div>{obj.language}</div>
                                         <div>{obj.size} kb</div>
+                                    </div>
+                                    <div className="flex justify-between text-sm mt-4 ">
+                                        <div><i className="ri-star-line"></i> {obj.stargazers_count}</div>
+                                        <div><i className="ri-timer-line"></i> {obj.watchers}</div>
+                                        <div><i className="ri-git-merge-line"></i> {obj.forks}</div>
                                     </div>
                                 </div>
                             </a>
