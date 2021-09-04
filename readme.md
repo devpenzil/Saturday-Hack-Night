@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/800934b8-bce9-40ff-8769-f56716206e30/deploy-status)](https://app.netlify.com/sites/sharp-borg-53f32d/deploys)

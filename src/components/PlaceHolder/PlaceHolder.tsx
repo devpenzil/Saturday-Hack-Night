@@ -1,12 +1,15 @@
 import React, {useState} from 'react'
+import { useHistory } from 'react-router'
 import place from '../../assets/octo.gif'
 function PlaceHolder() {
+    const history = useHistory()
     const [username, setUsername] = useState("")
     const userSubmited = (e:any) => {
         e.preventDefault()
         localStorage.setItem("guser",username)
+        history.push(`/profile?user=${username}`)
+
     }
-    console.log(username)
     return (
         <div className="container flex md:flex-row items-center flex-col mx-auto">
            <div className="w-full md:w-1/2 p-2">
