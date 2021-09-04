@@ -14,7 +14,7 @@ function Repo() {
        fetchingrepos()
     }, [])
     return (
-        <div className="mt-10">
+        <div className="mt-6">
             <div className="w-full flex flex-wrap">
                 {repos ? 
 

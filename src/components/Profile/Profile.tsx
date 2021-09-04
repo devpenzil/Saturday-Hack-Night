@@ -20,7 +20,7 @@ function Profile() {
         <div>
             {user ? 
             <div>
-                <div  className="card  m-4 p-4 shadow-lg rounded-lg bg-purple-200 mt-10">
+                <div  className="card  m-4 p-4 shadow-lg rounded-lg bg-purple-200 mt-6">
                     <img src={user.avatar_url} alt="avatar" className="w-32 mx-auto rounded-full border-4 border-purple-400" />
                     <div className="mt-10">
                         <div className="text-center text-4xl font-bold">
