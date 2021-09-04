@@ -1,9 +1,11 @@
 import React from 'react'
-import NavBar from '../components/Navbar/NavBar'
+import PlaceHolder from '../components/PlaceHolder/PlaceHolder'
 function HomePage() {
     return (
         <div>
-            <NavBar />
+            <div className="container mx-auto">
+               <PlaceHolder /> 
+            </div>
         </div>
     )
 }
