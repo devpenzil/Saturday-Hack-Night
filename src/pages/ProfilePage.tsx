@@ -1,5 +1,6 @@
 import React from 'react'
 import Profile from '../components/Profile/Profile'
+import Repo from '../components/Repo/Repo'
 
 function ProfilePage() {
     return (
@@ -9,7 +10,7 @@ function ProfilePage() {
                    <Profile />
                 </div>
                 <div className="w-full md:w-2/3 ">
-                    jhjh
+                    <Repo />
                 </div>
             </div>
         </div>
