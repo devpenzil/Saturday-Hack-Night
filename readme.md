@@ -8,3 +8,6 @@ This is a simple github profile viewer built with React js and Github API.
 This project was built for Saturday Hack Night conducted by **TinkerHUB**
 
 Hope you like this..............
+
+![home](src/assets/home.png)
+![profile](src/assets/profile.png)
